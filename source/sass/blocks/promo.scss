@@ -1,0 +1,29 @@
+.promo {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 302px;
+    background-image: url("../img/promo-background.jpg");
+    background-color: rgba(104, 183, 56, 85%);
+  }
+}
+
+.promo__title {
+  color: #ffffff;
+  font-size: 36;
+  font-weight: 400;
+  margin: 0;
+}
+
+.promo__container {
+  padding: 27px 35px 20px;
+}
+
+.promo__slogan {
+  color: #ffffff;
+  text-transform: uppercase;
+}

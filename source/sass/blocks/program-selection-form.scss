@@ -1,0 +1,35 @@
+.program-selection-form__group {
+  border: none;
+}
+
+.program-selection-form__list {
+  list-style-type: none;
+}
+
+.program-selection-form__input {
+  border: 1px solid #e7e7e7;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #444444;
+  text-transform: uppercase;
+  padding: 13px;
+}
+
+.program-selection-form__title {
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.program-selection-form__comment {
+  resize: none;
+  overflow: auto;
+
+  &::placeholder {
+    color: #444444;
+  }
+}
+
+.program-selection-form__explanation {
+  font-family: "Arial", sans-serif;
+}

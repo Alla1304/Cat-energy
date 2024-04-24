@@ -1,3 +1,4 @@
+@use "fonts.scss";
 @use "blocks/advantages.scss";
 @use "blocks/button.scss";
 @use "blocks/contacts.scss";
@@ -21,4 +22,15 @@
 @use "blocks/slider.scss";
 @use "blocks/social.scss";
 @use "blocks/title.scss";
-@use "blocks/visually-hidden.scss"
+@use "visually-hidden.scss";
+@use "container.scss";
+@use "blocks/text.scss";
+@use "blocks/card-title.scss";
+@use "blocks/optional-catalog-card.scss";
+@use "blocks/label.scss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
